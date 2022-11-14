@@ -1,12 +1,10 @@
 public class Shark extends Animal {
-
-    public  void attack(){
-        System.out.println("A shark sttacks a fish");
-
+    public Shark(int age, String name) {
+        super(age, name);
     }
 
     @Override
-    public void vois(String vois) {
-        System.out.println("The shark houw flour is produced : "+vois);
+    public void attack() {
+        super.attack();
     }
 }
